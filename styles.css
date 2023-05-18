@@ -31,3 +31,19 @@ body {
 .phoneNumber {
   width: 50px;
 }
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer h2 {
+  font-size: 40px;
+}
+
+.timer input {
+  border: none;
+  background-color: #ac8ec8;
+  color: white;
+  height: 2rem;
+}
